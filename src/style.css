@@ -113,3 +113,13 @@ nav{
    padding-left: 28px;
   
 }
+@media screen and (max-width:600px) {
+    .nav_option{
+        display:none;
+    }
+  }
+  @media screen and (min-width:600px) {
+    .menubar{
+        display:none;
+    }
+  }
