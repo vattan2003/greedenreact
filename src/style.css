@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 10px 10px 20px #0d0d0e,-10px -10px 20px #151516;
+}
+.head{
+ font-size: xx-large;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav_option{
+    display: flex;
+    gap: 25px;
+
+}
+.nav_option_btn{
+    border:solid gray 4px;
+    border-style: groove;
+    background-color: #a2a2ae;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav_option_btn:hover{
+    background-color: #5c5c5f;
+   
+}
+  
+
+.hero{
+    background-color: aquamarine;
+    margin-top:10px;
+    display: flex;
+    padding: 20px 0px 20px 20px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 20px #0d0d0e,-10px -10px 20px #151516;
+    height: 200px;
+    
+}
+.hero-btn{
+    background-color: #151516;
+    color: blanchedalmond;
+    padding: 7px;
+    border: solid gray 4px;
+    border-style: groove;
+    cursor:pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.hero-btn:hover{
+    background-color: #5c5c5f;
+}
+.hero_img{
+    width: 150px;
+    height: 150px;
+    border: solid rgb(82, 251, 195) 15px;
+    border-style: groove;
+}
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.product_card{
+    width: 200px;
+    height: 100px;
+    border: solid aquamarine 5px;
+    border-style: groove;
+   
+}
+.card-div{
+    box-shadow: 10px 10px 20px #0d0d0e,-10px -10px 20px #151516;
+}
+.sec1{
+    margin-top: 40px;
+}
+.sec2{
+    margin-top: 40px;
+}
+.about{
+    background-color: aquamarine;
+   margin-top: 40px;
+   text-align: center;
+   padding: 0px 0px 20px;
+}
+.about-head{
+    font-size: larger;
+    font-weight:700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0px 10px;
+}
+.footer{
+    background-color: #0d0d0e;
+    color: rgb(173, 168, 162);
+   display: flex;
+    padding: 80px 0px 10px 10px;
+}
+.footer-head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.copyright{
+   text-align: end;
+   font-size: 12px;
+   padding-top: 20px;
+   padding-left: 28px;
+  
+}
